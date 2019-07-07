@@ -1,23 +1,78 @@
+html, body {
+    height: 100%;
+}
+
 .navbar {
     box-sizing: border-box;
-	height: 2.33%;
-	width: 100.16%;
-	border: 1px solid #B5BAC2;
+    height: 2.33%;
+    width: 100%;
+    border: 1px solid #B5BAC2;
 }
 
 .what-we-do-box {
     height: 7.36%;
-	width: 27.34%;
-	border: 1px solid rgba(0,0,0,0.1);
-	border-radius: 5px;
-	background-color: #FFFFFF;
-	box-shadow: 0 12px 25px 0 rgba(0,0,0,0.15);
+    width: 27.34%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.15);
 }
 
 .learn-more {
-	height: 1.75%;
-	width: 21.95%;
-	border-radius: 27px;
-	background: linear-gradient(209.72deg, #32C5FF 0%, #B620E0 100%);
-	box-shadow: 0 5px 20px 0 #9D4AFF;
+    height: 1.75%;
+    width: 21.95%;
+    border-radius: 27px;
+    background: linear-gradient(209.72deg, #32C5FF 0%, #B620E0 100%);
+    box-shadow: 0 5px 20px 0 #9D4AFF;
+}
+
+.agency-name {
+    color: #FFFFFF;
+    font-family: "Circular Std";
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    line-height: 30px;
+}
+
+.logo-img {
+    height: 36px;
+    width: 36px;
+}
+
+.navbar-link-text {
+    color: #FFFFFF!important;
+    font-family: "Circular Std";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    .contact-us-outer {
+        height: 42px;
+        width: 113px;
+        border-radius: 21px;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+
+    .contact-us-navbar {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 20px;
+        color: #0F1533;
+        font-family: "Circular Std";
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-us-navbar {
+        color: #FFFFFF!important;
+        font-family: "Circular Std";
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+    }
 }
