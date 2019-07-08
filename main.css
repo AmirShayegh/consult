@@ -40,7 +40,7 @@ body {
         height: 42px;
         width: 113px;
         border-radius: 21px;
-        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
         text-align: center;
     }
 
@@ -127,7 +127,7 @@ box-body {
 
 .box-full-width {
     height: 520px;
-	width: 1280px;
+	width: 100%;
 }
 
 .box-shadow {
@@ -218,4 +218,12 @@ box-big-body {
 
 .red {
     color: red;
+}
+
+.container-custom
+{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
 }
