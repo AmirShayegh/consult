@@ -280,7 +280,20 @@ box-big-body {
     line-height: 30px;
 }
 
-.test
+.custom-dialog
 {
-    margin: 0 auto;
+    width: 50%;
+    max-width: 1000px!important;
+}
+
+.call-header
+{
+    background: linear-gradient(209.72deg, #32C5FF 0%, #B620E0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Circular Std";
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.56px;
+    line-height: 46px;
 }
