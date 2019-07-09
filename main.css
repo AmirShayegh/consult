@@ -52,6 +52,24 @@ body {
         font-size: 16px;
         font-weight: 300;
     }
+
+    .header-name
+    {
+        color: #FFFFFF;
+        font-family: "Circular Std";
+        font-size: 64px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        line-height: 81px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .header-text
+    {
+        font-weight: 200;
+    }
 }
 
 @media (max-width: 768px) {
@@ -61,6 +79,19 @@ body {
         font-size: 16px;
         font-weight: 300;
         line-height: 20px;
+    }
+
+    .header-name
+    {
+        color: #FFFFFF;
+        font-family: "Circular Std";
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        line-height: 40px;
+        position: absolute;
+        top: 30%;
+        left: 10%;
     }
 }
 
@@ -235,25 +266,6 @@ box-big-body {
     width: 100%;
 }
 
-.header-name
-{
-    color: #FFFFFF;
-    font-family: "Circular Std";
-    font-size: 64px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    line-height: 81px;
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    max-width: 75%;
-}
-
-.header-text
-{
-    font-weight: 200;
-}
-
 .work-box
 {
     height: 300px;
@@ -266,4 +278,9 @@ box-big-body {
     font-weight: bold;
     letter-spacing: -1.5px;
     line-height: 30px;
+}
+
+.test
+{
+    margin: 0 auto;
 }
