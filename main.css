@@ -253,3 +253,8 @@ box-big-body {
 {
     font-weight: 200;
 }
+
+.work-box
+{
+    height: 300px;
+}
