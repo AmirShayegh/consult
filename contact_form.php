@@ -5,10 +5,10 @@
         && isset($_POST['subject'])
         && isset($_POST['message']))
     {
-        $to = "our_email@domain.com";
+        $to = "matt.rosenlund@gmail.com";
         $subject = $_POST['subject'];
 
-        $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
+        $headers = "From: " . $_POST['email'] . "\r\n";
         $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
