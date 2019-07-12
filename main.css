@@ -58,6 +58,13 @@ body {
   font-weight: 300;
 }
 
+.navbar-link-text-selected {
+  color: #0F1533 !important;
+  font-family: "Circular Std";
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .logo-img {
   height: 36px;
   width: 36px;
@@ -327,6 +334,15 @@ box-big-body {
     width: 113px;
     border-radius: 21px;
     border: 1px solid #FFFFFF;
+    text-align: center;
+  }
+
+  .contact-us-selected-outer {
+    height: 42px;
+    width: 113px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 21px;
     text-align: center;
   }
 
