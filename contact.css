@@ -202,3 +202,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+input[type="text"]
+{
+  background: transparent;
+}
+
+textarea
+{
+  background: transparent;
+}
+
+input, select, textarea{
+  color: #ffffff;
+}
