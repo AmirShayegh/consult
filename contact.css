@@ -143,6 +143,12 @@
   border-radius: 27px;
   background: linear-gradient(209.72deg, #32C5FF 0%, #B620E0 100%);
   box-shadow: 0 5px 20px 0 #9D4AFF;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 18px;
 }
 
 .footer-container {
