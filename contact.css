@@ -1,0 +1,230 @@
+.contact-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.contact-header-text {
+  height: 48px;
+  color: #FFFFFF;
+  font-family: "Circular Std";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  text-align: center;
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.contact-header-title {
+  color: #FFFFFF;
+  font-family: "Circular Std";
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 53px;
+  text-align: center;
+}
+
+.call-us-copy-2 {
+  height: 15px;
+  color: #0F1533;
+  font-family: "Circular Std";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.71px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.contact-center-height {
+  height: 130px;
+}
+
+.pes {
+  height: 20px;
+  opacity: 0.6;
+  color: #0F1533;
+  font-family: "Circular Std";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.send-a-message {
+  height: 46px;
+  width: 445px;
+  color: #FFFFFF;
+  font-family: "Circular Std";
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: -0.56px;
+  line-height: 46px;
+}
+
+.bg-send-message {
+  width: 100%;
+  background-image: linear-gradient(265.73deg, rgba(0, 0, 0, 0) 0%, rgba(15, 21, 51, 0.6) 41.98%, #0F1533 100%), url('images/building-optimized.gif');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.use-the-form-below-t {
+  height: 23px;
+  padding-left: 0px;
+  color: #FFFFFF;
+  font-family: "Circular Std";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.form-group {
+  height: 261px;
+  width: 542px;
+}
+
+.form-first-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  height: 15px;
+  width: 256px;
+  color: #FFFFFF;
+  font-family: "Circular Std";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.rectangle {
+  height: 32px;
+  width: 256px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  margin-top: 8px;
+}
+
+.form-con-row {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.rectangle2 {
+  margin-top: 8px;
+  height: 32px;
+  width: 541px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+.rectangle3 {
+  margin-top: 8px;
+  height: 96px;
+  width: 540px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+.send-msg {
+  margin-top: 11px;
+  height: 42px;
+  width: 187px;
+  border-radius: 27px;
+  background: linear-gradient(209.72deg, #32C5FF 0%, #B620E0 100%);
+  box-shadow: 0 5px 20px 0 #9D4AFF;
+  border: 0;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 18px;
+}
+
+.footer-container {
+  margin-top: 55px;
+  background-color: #fff;
+}
+
+.agency-name-con {
+  height: 30px;
+  width: 141px;
+  opacity: 0.5;
+  color: #0F1533;
+  font-family: "Circular Std";
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  line-height: 30px;
+}
+
+.footer-padding {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.footer-padding2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+}
+
+.footer-link {
+  height: 20px;
+  width: 44px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Circular Std";
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-right: 5px;
+}
+
+.footer-link-container {
+  float: right;
+}
+
+.contact-header {
+  height: 100vh;
+  width: 100%;
+
+  background-image: linear-gradient(265.73deg, rgba(0, 0, 0, 0) 0%, rgba(15, 21, 51, 0.6) 41.98%, #0F1533 100%), url('images/macbook-2-optimized.gif');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type="text"]
+{
+  background: transparent;
+}
+
+textarea
+{
+  background: transparent;
+}
+
+input, select, textarea{
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .contact-header-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
