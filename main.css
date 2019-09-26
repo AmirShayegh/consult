@@ -311,18 +311,13 @@ box-big-body {
   max-width: 1000px !important;
 }
 
-.call-header {
-  background: linear-gradient(209.72deg, #32C5FF 0%, #B620E0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Circular Std";
-  font-size: 48px;
-  font-weight: 300;
-  letter-spacing: -0.56px;
-  line-height: 46px;
+.modal-content{
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
+
 /* END SCHEDULE A CALL MODAL */
+
 
 .box-shadow {
   box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.15);
@@ -407,10 +402,16 @@ box-big-body {
 
   .partner-background
   {
-    width: 100%;
+    width: 95%;
     background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url('images/phone-mockup-optimized.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .custom-dialog {
+    width: 100%;
+    max-width: 1000px !important;
+    margin: 0px;
   }
 }
