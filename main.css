@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
 html,
 body {
   height: 100%;
@@ -44,6 +46,16 @@ body {
 /* END UTILITIES */
 
 /* NAVBAR */
+
+.logo-navbar {
+  height: 40px;
+  width: 120px;
+}
+
+.logo-main {
+  height: 120px;
+  width: 360px;
+}
 
 .navbar {
   box-sizing: border-box;
@@ -92,7 +104,7 @@ body {
   border: 1px solid #B5BAC2;
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(180deg, rgba(15,21,51,0.4) 0%, rgba(15,21,51,0.7) 100%), url('images/people-optimized.gif');
+  background-image: linear-gradient(180deg, rgba(15,21,51,0.4) 0%, rgba(15,21,51,0.7) 100%), url('images/splash.jpg');
 
   background-attachment: fixed;
   background-position: center;
@@ -212,6 +224,11 @@ box-body {
   height: 300px;
 }
 
+.latest-works-images {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
 /* END LATEST WORKS */
 
 /* LETS CREATE */
@@ -362,16 +379,14 @@ box-big-body {
   /* END NAVBAR */
   /* HEADER */
   .header-name {
-    color: #FFFFFF;
-    font-family: "Circular Std";
-    font-size: 64px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    line-height: 81px;
   }
 
   .header-text {
+    color: #FFFFFF;
+    font-family: 'proxima-nova', sans-serif;
     font-weight: 200;
+    font-size: 42px;
+    line-height: 48px;
   }
 
   /* END HEADER */
@@ -381,7 +396,7 @@ box-big-body {
   /* NAVBAR */
   .contact-us-navbar {
     color: #FFFFFF !important;
-    font-family: "Circular Std";
+    font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
@@ -391,8 +406,8 @@ box-big-body {
   /* HEADER */
   .header-name {
     color: #FFFFFF;
-    font-family: "Circular Std";
-    font-size: 32px;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 26px;
     font-weight: 800;
     letter-spacing: -1px;
     line-height: 40px;

@@ -30,13 +30,7 @@
   <nav class="navbar navbar-expand-md navbar-dark">
     <a class="navbar-brand pl-md-5">
       <!-- Logo -->
-      <!--
-      <img class="logo-img" style="background:white;"/>
-      -->
-      <!-- Agency Name -->
-      <span class="agency-name px-2">
-                    Tera Lake
-                </span>
+      <img class="logo-navbar" src="images/logo.png"/>
     </a>
 
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -46,9 +40,8 @@
     <div class="collapse navbar-collapse pr-5" id="navbarCollapse">
       <div class="navbar-nav ml-auto">
         <a href="index.html" class="nav-item nav-link navbar-link-text mx-2">Home</a>
-        <!--
-        <a href="#" class="nav-item nav-link navbar-link-text mx-2">Work</a>
-        -->
+        <a href="#whatwedo" class="nav-item nav-link navbar-link-text mx-2">What We Do</a>
+        <a href="#work" class="nav-item nav-link navbar-link-text mx-2">Work</a>
         <a href="contact.html" class="nav-item nav-link contact-us-outer mx-2">
           <span class="contact-us-navbar navbar-link-text">Contact Us</span>
         </a>
@@ -58,8 +51,8 @@
 
   <div class="col-md-12 col-lg-6 offset-lg-2 header-box h-100">
         <span class="header-name">
-            TeraLake
-            <br/>
+          <img class="logo-main" src="images/logo.png"/>
+          <br/><br/>
             <span class="header-text">We create experiences worth talking about.</span>
         </span>
   </div>
@@ -72,7 +65,7 @@
   <!--</span>-->
 </div>
 <!--    WHAT WE DO  -->
-<div class="container">
+<div class="container" id="whatwedo">
   <div class="row row-eq-height">
     <div class="col">
       <h2>What We Do</h2>
@@ -104,7 +97,7 @@
           DEVELOPMENT
         </div>
         <div class="box-body my-4">
-          Our user centric approach means your next project will make a real difference to your audience.
+          Solution-driven and result-oriented development approach helping your business gain a competitive advantage over rivals.
         </div>
       </div>
     </div>
@@ -142,12 +135,13 @@
           <h2>Your Partner in Crime <span class="red">*</span></h2>
         </div>
         <div class="col-12 box-big-body mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-          tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-          vitae erat.
-          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
-          posuere.Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-          erat.
+          Some clients that reach out to us already have a comprehensive plan for their product. Others still
+          need help figuring out if their idea should take the form of a mobile application, web application, or
+          something else entirely. It’s our job as a technical partner to guide our clients towards the best
+          technological match possible.
+          <br/>
+          Our team sincerely cares about the overall health and growth of your venture,
+          and we pride ourselves on our open communication that brings you results.
         </div>
         <div class="col-12 star">
           <span class="red">*</span> In a non criminal way of course. We stick to building apps!
@@ -159,7 +153,7 @@
 <!--   END YOUR PARTNER IN CRIME  -->
 
 <!--   LATEST WORKS   -->
-<div class="container mb-4">
+<div class="container mb-4" id="work">
   <div class="row">
     <div class="col">
       <h2>Latest Works</h2>
@@ -168,19 +162,13 @@
   </div>
   <div class="row center boxes px-0">
     <div class="col-sm-12 col-md-4 col-md-offset-2 work-box">
-      <div class="col box-off w-100 h-100">
-        One
-      </div>
+      <img src="images/project-copper.jpg" class="latest-works-images img-rounded" />
     </div>
     <div class="col-sm-12 col-md-4 col-md-offset-2 work-box">
-      <div class="col box-off w-100 h-100">
-        Two
-      </div>
+      <img src="images/project-myharold.jpg" class="latest-works-images img-rounded" />
     </div>
     <div class="col-sm-12 col-md-4 col-md-offset-2 work-box">
-      <div class="col box-off w-100 h-100">
-        Three
-      </div>
+      <img src="images/project-yajooj.jpg" class="latest-works-images img-rounded" />
     </div>
   </div>
   <br/>
@@ -341,6 +329,31 @@
         up: "fa fa-arrow-up",
         down: "fa fa-arrow-down"
       }
+    });
+  });
+
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
     });
   });
 </script>
