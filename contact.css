@@ -6,6 +6,11 @@
   justify-content: center;
 }
 
+.logo-navbar {
+  height: 40px;
+  width: 120px;
+}
+
 .contact-header-text {
   height: 48px;
   color: #FFFFFF;
